@@ -1,0 +1,108 @@
+body {
+    background-image: url("leather_background.jpg");
+}
+#main-container {
+    height: 35em;
+    width: 20em;
+    margin-top: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(191, 197, 191);
+    border-radius: 10px;
+    color: #fff;
+	text-shadow: 0 -1px 0 #000;
+	box-shadow: 0 7px 0 #666, 0 5px 0 #333, 0 6px 6px rgba(0,0,0,0.6);
+}
+#brand {
+    color: black;
+    position: relative;
+    left: .7em;
+    top: .4em;
+    font-size: 35px;
+    font-family: 'Teko', sans-serif;
+}
+#model {
+    color: black;
+    position: relative;
+    bottom: 1.8em;
+    left: 1.8em;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#solar-panel {
+    position: relative;
+    left: 9em;
+    bottom: 6em;
+    height: 3em;
+    width: 10em;
+    background-color: rgb(55, 55, 56);
+    border-radius: 10px;
+}
+#screen-bezel {
+    position: relative;
+    bottom: 5em;
+    left: 1em;
+    background-color: black;
+    height: 7em;
+    width: 18em;
+    border-radius: 15px 15px 30px 30px;
+    text-shadow: 0 -1px 0 #000;
+	box-shadow: 0 1px 0 #666, 0 5px 0 #333, 0 6px 6px rgba(0,0,0,0.6);
+}
+#screen {
+    position: relative;
+    top: .5em;
+    margin: auto;
+    height: 5.5em;
+    width: 16em;
+    background-color: rgb(138, 133, 133);
+    border-radius: 5px;
+
+}
+#top-screen {
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    text-align: end;
+}
+#main-screen {
+    font-family: 'VT323', monospace;
+    font-size: 55px;
+    text-align: end;
+}
+#buttons-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, .5fr);
+    grid-gap: 10px;
+    /* justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around; */
+    height: 22em;
+    width: 17em;
+    left: 1.8em;
+    bottom: 4em;
+}
+.reg-button {
+    font-size: 18px;
+    background-color: rgb(51, 46, 46);
+    color: whitesmoke;
+    width: 3em;
+    height: 2.5em;
+    border-radius: 5px 5px 12px 12px;
+    font-weight: bold;
+	text-transform: uppercase;
+	background: -webkit-linear-gradient(#888, #555);
+	background: linear-gradient(#888, #555);
+	border: 0 none;
+	text-shadow: 0 -1px 0 #000;
+	box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+	cursor: pointer;
+
+}
+#plus-but {
+    grid-row: 4/ 6;
+    grid-column: 4;
+    height: 6.5em;
+}
